@@ -6,10 +6,12 @@ error_reporting(E_ALL);
 
 
 use Models\User;
+use ActiveRecord\Database;
+
 require_once('app/start.php');
 
 
 $user = new User();
-
+$d = new Database();
 
 

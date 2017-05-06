@@ -5,6 +5,7 @@ namespace Models;
 class User {
 	public function __construct()
 	{
-		die('Hello');
+		echo 'Hello';
+
 	}
 }

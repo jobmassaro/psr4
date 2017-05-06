@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Models\\' => array($baseDir . '/app/Models'),
+    'ActiveRecord\\' => array($baseDir . '/app/ActiveRecord'),
 );

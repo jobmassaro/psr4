@@ -1,7 +1,8 @@
 {
 	"autoload":{
 		"psr-4":{
-			"Models\\": "app/Models" 
+			"Models\\": "app/Models",
+			"ActiveRecord\\": "app/ActiveRecord"
 		}
 	}
 }
